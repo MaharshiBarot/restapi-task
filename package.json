@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "REST API for managing groups and members",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test-connection.js",
+    "migrate": "npx sequelize db:migrate",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sequelize": "^6.32.1"
+  }
+}
